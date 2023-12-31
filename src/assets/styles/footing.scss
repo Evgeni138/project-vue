@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.footer {
+    display: flex;
+    padding-bottom: 100px;
+
+    &__about {
+        display: flex;
+        flex-direction: column;
+        padding-top: 120px;
+        padding-bottom: 50px;
+        padding-left: 8px;
+    }
+
+    &__logo {
+        display: flex;
+        gap: 10px;
+        text-decoration: none;
+    }
+
+    &__img {
+        padding-top: 4px;
+        height: 35px;
+    }
+
+    &__name {
+        color: #292F36;
+        font-family: DM Serif Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+    }
+
+    &__text {
+        max-width: 384px;
+        padding-top: 20px;
+        color: #4D5053;
+        font-family: Jost;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 33px */
+        letter-spacing: 0.22px;
+    }
+
+    &__icons {
+        padding-top: 30px;
+        display: flex;
+        gap: 52px;
+    }
+
+    &__menu {
+        padding-top: 119px;
+        padding-left: 109px;
+        // padding-right: 280px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    &__header {
+        color: #292F36;
+        font-family: DM Serif Display;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        /* 31.25px */
+    }
+
+    &__link {
+        color: #4D5053;
+        text-decoration: none;
+        font-family: Jost;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 300%;
+        /* 66px */
+        letter-spacing: 0.22px;
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        padding-top: 119px;
+        padding-left: 333px;
+        gap: 22px;
+        max-width: 300px;
+    }
+
+    &__cont {
+        color: #292F36;
+        font-family: DM Serif Display;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        /* 31.25px */
+    }
+
+    &__location {
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+    }
+
+    &__adress {
+        color: #4D5053;
+        font-family: Jost;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.22px;
+    }
+}

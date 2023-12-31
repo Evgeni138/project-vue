@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "DM Serif Display";
+    src: url("@/assets/fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url("@/assets/fonts/Jost/Jost-VariableFont_wght.ttf");
+}

@@ -1,0 +1,42 @@
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.title__back {
+    padding-top: 305px;
+    padding-bottom: 50px;
+    background-image: url('@/assets/images/img_projectDetails/title_back.png');
+}
+
+.content {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    max-width: 658px;
+    padding-left: calc(50% - 329px);
+    padding-right: calc(50% - 329px);
+
+    &__header {
+        color: #292F36;
+        font-family: DM Serif Display;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 1px;
+    }
+
+    &__p1 {
+        color: #4D5053;
+        font-family: Jost;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.22px;
+    }
+}
+
+.img {
+    border-radius: 75px;
+}
